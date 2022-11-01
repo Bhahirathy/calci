@@ -1,0 +1,42 @@
+.main{
+    background-color: wheat;
+    height: 100em;
+    width: 100um;
+}
+.container{
+    background-color: white;
+ position: absolute;
+ left: 500px;
+ top: 200px;
+    height: 350px;
+    width: 500px;
+  
+}
+.button{
+    margin: 5px 5px 0px 0px;
+    height: 30px;
+    width: 105px;
+    background-color: blue;
+    color: white;
+    border-style: none;
+}
+.side-btn{
+    margin-left: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    color: white;
+    border-style: none;
+}
+.c{
+    position: relative;
+    left: 120px;
+}
+.in{
+    position: relative;
+    left: 50px;
+}
+.tb{
+    position: relative;
+    left: 50px;
+}
