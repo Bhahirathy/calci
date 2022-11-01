@@ -4,18 +4,21 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Calculate me! - A calculator made my me</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="utils.css" rel="stylesheet" type="text/css" />
+    <title>A calculator</title>
+    <link href="calci.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <h1 class="text-center">Welcome to Calculate me!</h1>
-    <div class="container flex flex-col items-center mx-auto m-w-20">
-        <div class="row">
-            <input class="input" type="text" />
+    <div class="main">
+        <div class="container">
+            <div class="c">
+            <h1>Calculator</h1>
         </div>
-        <table>
+        <div class="in">
+            <input  class="input" type="text" />
+        </div>
+        <div>
+        <table class="tb">
             <tr>
             <td><button class="button">C</button></td>
             <td><button class="button">1</button></td>
@@ -41,7 +44,9 @@
             <td><button class="button">+</button></td>
         </tr>
         </table>
+        </div>
     </div>
+</div>
     <script src="script.js"></script>
 </body>
 
