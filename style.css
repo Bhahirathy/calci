@@ -1,0 +1,17 @@
+
+.container flex flex-col items-center mx-auto m-w-20{
+    background-color: white;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+       height: 350px;
+       width: 500px;
+}
+.button{
+    margin: 5px 5px 0px 0px;
+    height: 30px;
+    width: 105px;
+    background-color: blue;
+    color: white;
+    border-style: none;
+}
